@@ -1,0 +1,7 @@
+created: 20150615135107092
+modified: 20150615135300524
+tags: Java
+title: Java Platform Debugger Architecture
+type: text/vnd.tiddlywiki
+
+JPDA(Java Platform Debugger Architecture) 是 Java 平台调试体系结构的缩写，通过 JPDA 提供的 API，开发人员可以方便灵活的搭建 Java 调试应用程序。JPDA 主要由三个部分组成：Java 虚拟机工具接口（JVMTI），Java 调试线协议（[[JDWP|Java Debug Wire Protocol]]），以及 Java 调试接口（JDI）
