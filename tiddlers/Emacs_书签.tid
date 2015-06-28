@@ -1,0 +1,17 @@
+created: 20150628023220605
+modified: 20150628091918066
+tags: Emacs
+title: Emacs 书签
+type: text/x-markdown
+
+1. 列表
+   + 函数：bookmark-bmenu-list
+   + 快捷键：`C-x r l`
+
+1. 新增
+   + 函数：bookmark-set
+   + 快捷键：`C-x r m`
+
+1. 前往
+   + 函数：bookmark-jump
+   + 快捷键：`C-x r b`

@@ -1,0 +1,39 @@
+created: 20150628031254016
+modified: 20150628091841238
+tags: Emacs
+title: Emacs Dired 常用操作
+type: text/x-markdown
+
+> [Dired, the Directory Editor](http://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)
+
+1. 返回上级
+   + 函数：dired-up-directory
+   + 快捷键：`^`
+
+1. 当前窗口打开
+   + 函数：dired-find-file
+   + 快捷键：`f`, `RET`
+
+1. 跳到文件
+   + 函数：dired-goto-file
+   + 快捷键：`j`
+
+1. 新窗口打开(焦点)
+   + 函数：dired-find-file-other-window
+   + 快捷键：`o`
+
+1. 新窗口显示(失焦)
+   + 函数：dired-display-file
+   + 快捷键：`C-o`
+
+1. 标记删除
+   + 函数：dired-flag-file-deletion
+   + 快捷键：`d`
+
+1. 清除标记
+   + 函数：dired-unmark
+   + 快捷键：`u`
+
+1. 执行删除
+   + 函数：dired-do-flagged-delete
+   + 快捷键：`x`
