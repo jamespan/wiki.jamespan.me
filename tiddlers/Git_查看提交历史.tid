@@ -1,0 +1,13 @@
+created: 20150628161419525
+modified: 20150628162032044
+tags: Git
+title: Git 查看提交历史
+type: text/x-markdown
+
++ 增改行数统计
+
+   `git log --stat`
+
++ 最近2次变更的内容差异
+
+   `git log -p -2`
