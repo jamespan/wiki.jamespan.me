@@ -9,5 +9,16 @@
     "themes": [
         "tiddlywiki/vanilla",
         "tiddlywiki/snowwhite"
-    ]
+    ],
+    "build": {
+        "index": [
+            "--rendertiddler","$:/core/save/all","index.html","text/plain"
+            ],
+        "favicon": [
+            "--savetiddler","$:/favicon.ico","favicon.ico"
+            ]
+    },
+    "config": {
+        "retain-original-tiddler-path": true    
+    }
 }

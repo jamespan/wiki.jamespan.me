@@ -1,5 +1,5 @@
 created: 20150614152550767
-modified: 20150614153758588
+modified: 20151001120412690
 tags: [[OS X]] software hack
 title: 延长Bartender的试用期
 type: text/vnd.tiddlywiki
@@ -10,4 +10,11 @@ OS X 提供了实用工具 [[defaults]] 来操作 plist 文件。
 
 ```bash
 defaults write ~/Library/Preferences/com.surteesstudios.Bartender.plist trialStart -date `date +%D`
+```
+
+
+Bartender 版本升级到 2 之后，似乎记录试用期开始时间的方式并没有什么改进，只是在同一个文件中换了 key 而已。
+
+```bash
+defaults write ~/Library/Preferences/com.surteesstudios.Bartender.plist trialStart2 -date `date +%D`
 ```

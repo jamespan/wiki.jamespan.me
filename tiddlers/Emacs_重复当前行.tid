@@ -1,0 +1,13 @@
+created: 20150905144134717
+modified: 20150905144902127
+tags: Emacs
+title: Emacs 重复当前行
+type: text/vnd.tiddlywiki
+
+```
+C-S-Backspace
+C-y
+C-y
+```
+
+先删除整行，然后连续两次粘贴，把已经删除的当前行贴两次
