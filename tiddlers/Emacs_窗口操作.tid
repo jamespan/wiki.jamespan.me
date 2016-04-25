@@ -1,0 +1,34 @@
+created: 20150628021835763
+modified: 20150628092231082
+tags: Emacs
+title: Emacs 窗口操作
+type: text/x-markdown
+
+1. 关闭
+   + 函数：delete-window
+   + 快捷键：`C-x 0`
+
+1. 关闭其他
+   + 函数：delete-other-windows
+   + 快捷键：`C-x 1`
+
+1. 左右分屏
+   + 函数：split-window-horizontally
+   + 快捷键：`C-x 3`, `C-x -`
+
+1. 上下分屏
+   + 函数：split-window-vertically
+   + 快捷键：`C-x 2`, `C-x |`
+
+1. 上下分屏打开 Buffer
+   + 函数：ido-switch-buffer-other-window
+   + 快捷键：`C-x 4 b`
+
+1. 关闭 Buffer 和窗口
+   + 函数：kill-buffer-and-window
+   + 快捷键：`C-x 4 0`
+
+1. 选择窗口
+   + 插件：[window-numbering](https://github.com/nschum/window-numbering.el)
+   + 快捷键：`M-{窗口编号}`
+

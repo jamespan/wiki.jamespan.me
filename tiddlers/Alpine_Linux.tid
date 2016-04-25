@@ -1,0 +1,11 @@
+created: 20151112134314239
+modified: 20151112151144160
+tags: 
+title: Alpine Linux
+type: text/vnd.tiddlywiki
+
+一个体积很小的 Linux 发行版，适用于构建最小 Docker 镜像。
+
+http://gliderlabs.viewdocs.io/docker-alpine/
+
+http://alpinelinux.org/

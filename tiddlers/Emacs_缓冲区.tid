@@ -1,0 +1,9 @@
+created: 20150628070303942
+modified: 20150628091647262
+tags: Emacs
+title: Emacs 缓冲区
+type: text/x-markdown
+
+1. 列表
+   + 函数：list-buffers
+   + 快捷键：`C-x C-b`

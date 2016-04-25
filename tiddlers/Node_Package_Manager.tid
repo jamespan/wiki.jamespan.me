@@ -1,0 +1,17 @@
+created: 20150622080342948
+modified: 20150622081705584
+tags: Node.js
+title: Node Package Manager
+type: text/vnd.tiddlywiki
+
+a package manager for [[JavaScript]].
+
+<<<
+npm is the package manager for javascript.
+<<< https://www.npmjs.com
+
+官网：https://www.npmjs.com
+
+镜像：
+
+# 淘宝：https://npm.taobao.org

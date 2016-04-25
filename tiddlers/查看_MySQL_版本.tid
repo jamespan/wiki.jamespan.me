@@ -1,0 +1,11 @@
+created: 20150616093346676
+modified: 20150616093507816
+tags: MySQL
+title: 查看 MySQL 版本
+type: text/vnd.tiddlywiki
+
+直接执行如下查询：
+
+```
+select version();
+```

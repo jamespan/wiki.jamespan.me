@@ -1,0 +1,13 @@
+created: 20150928164559642
+modified: 20150928174215705
+tags: 
+title: 解决Zip压缩包内容乱码
+type: text/vnd.tiddlywiki
+
+Ubuntu 可以直接使用如下命令：
+
+```
+unzip -O cp936 file
+```
+
+OS X 的还没搞定

@@ -1,0 +1,33 @@
+created: 20150628062912768
+modified: 20150628091616104
+tags: Emacs
+title: Emacs Dired 标记与操作
+type: text/x-markdown
+
+> [Dired Marks vs. Flags](http://www.gnu.org/software/emacs/manual/html_node/emacs/Marks-vs-Flags.html)
+
+1. 标记文件
+   + 函数：dired-mark
+   + 快捷键：`m`, `* m`
+
+1. 全部标记
+   + 函数：dired-mark-subdir-files
+   + 快捷键：`* s`
+
+1. 移除标记
+   + 函数：dired-unmark
+   + 快捷键：`u`, `* u`
+
+1. 全部移除
+   + 函数：dired-unmark-all-marks
+   + 快捷键：`U`
+
+1. 反向标记
+   + 函数：dired-toggle-marks
+   + 快捷键：`t`
+
+> [Operating on Files](http://www.gnu.org/software/emacs/manual/html_node/emacs/Operating-on-Files.html)
+
+1. 删除文件
+   + 函数：dired-do-delete
+   + 快捷键：`D`

@@ -1,0 +1,17 @@
+created: 20150615134046060
+modified: 20150615134953831
+tags: Java
+title: Java 服务开启远程调试
+type: text/vnd.tiddlywiki
+
+为被调试的程序添加 [[JDWP|Java Debug Wire Protocol]] 相关启动参数：
+
+```
+-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=<port>
+```
+
+
+相关内容：
+
+# [[使用 Eclipse 远程调试 Java 应用程序|http://www.ibm.com/developerworks/cn/opensource/os-eclipse-javadebug/]]
+# [[jdb - The Java Debugger|http://docs.oracle.com/javase/7/docs/technotes/tools/windows/jdb.html]]

@@ -1,0 +1,39 @@
+created: 20150622081724312
+modified: 20150622083643202
+tags: Node.js
+title: 新建模块并发布到NPM
+type: text/vnd.tiddlywiki
+
+发布 [[Node.js]] 模块到 [[NPM|Node Package Manager]]，就可以把自己的代码以更加简单的方式与开发者、使用者共享。
+
+这里是开发 [[hexo-ruby-character|https://www.npmjs.com/package/hexo-ruby-character]] 过程中，新建模块和发布模块的经验。
+
+创建模块同名目录
+
+```
+mkdir <package> && cd <package>
+```
+
+初始化模块，填写模块名称、版本等信息，自动生成 package.json 文件
+
+```
+npm init
+```
+
+安装模块依赖，自动添加到 package.json
+
+```
+npm install <package> --save
+```
+
+首次发布模块前，需要添加 NPM 用户，输入用户名、密码、邮箱等
+
+```
+npm adduser
+```
+
+发布模块，每次发布都需要修改 package.json 中模块的版本，版本命名参考[[语义化版本]]
+
+```
+npm publish
+```

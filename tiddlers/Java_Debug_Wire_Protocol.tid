@@ -1,0 +1,11 @@
+created: 20150615134940858
+modified: 20150615135420359
+tags: Java
+title: Java Debug Wire Protocol
+type: text/vnd.tiddlywiki
+
+JDWP 是 Java Debug Wire Protocol 的缩写，它定义了调试器（debugger）和被调试的 Java 虚拟机（target vm）之间的通信协议。
+
+参考:
+
+# [[深入 Java 调试体系，第 3 部分: JDWP 协议及实现|http://www.ibm.com/developerworks/cn/java/j-lo-jpda3/]]

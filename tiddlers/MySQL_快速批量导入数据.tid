@@ -1,0 +1,7 @@
+created: 20150630143139021
+modified: 20150630143330764
+tags: MySQL
+title: MySQL 快速批量导入数据
+type: text/vnd.tiddlywiki
+
+一次插入 1000 行记录，24 个线程同时工作，每秒的写入量大约在 10 万行这个量级

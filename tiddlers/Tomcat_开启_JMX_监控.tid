@@ -1,0 +1,15 @@
+created: 20150615131707975
+modified: 20150615132321580
+tags: Java JMX Tomcat
+title: Tomcat 开启 JMX 监控
+type: text/vnd.tiddlywiki
+
+为 [[Tomcat]] 添加如下 [[JMX]] 相关启动参数：
+
+```
+-Dcom.sun.management.jmxremote 
+-Dcom.sun.management.jmxremote.port={port to access} 
+-Dcom.sun.management.jmxremote.authenticate=false 
+-Dcom.sun.management.jmxremote.ssl=false
+-Djava.rmi.server.hostname={optional, allow what ip to access this Tomcat}
+```
