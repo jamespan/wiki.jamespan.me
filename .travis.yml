@@ -26,4 +26,4 @@ script:
   - rm -rf ./output
   - git add --all
   - git commit -m "$(curl -s whatthecommit.com/index.txt || echo no comment)"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages:gh-pages > /dev/null 2>&1
+  - git push --force "https://${GH_TOKEN}@${GH_REF}" gh-pages:gh-pages
