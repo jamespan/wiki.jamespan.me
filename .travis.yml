@@ -24,7 +24,7 @@ install:
 script:
   - tiddlywiki . --rendertiddler $:/core/save/all ./index.html text/plain
   - cp .travis/CNAME ./output/
-  - cp ./favicon.png ./output/
+  - cp .travis/favicon.png ./output/
   - git checkout gh-pages
   - cp -a ./output/* ./
   - rm -rf ./output
