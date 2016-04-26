@@ -21,7 +21,8 @@ script:
   - tiddlywiki . --build index
   - cp .travis/CNAME ./output/
   - cp .travis/favicon.png ./output/favicon.ico
-  - git checkout -b gh-pages
+  - git checkout --orphan gh-pages
+  - git rm --cached $(git ls-files)
   - cp -a ./output/* ./
   - rm -rf ./output
   - git add --all
