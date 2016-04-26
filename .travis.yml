@@ -18,9 +18,9 @@ install:
   - npm install -g tiddlywiki
 
 script:
-  - tiddlywiki . --rendertiddler $:/plugins/tiddlywiki/tiddlyweb/save/offline ./index.html text/plain
+  - tiddlywiki . --build index
   - cp .travis/CNAME ./output/
-  - cp .travis/favicon.png ./output/
+  - cp .travis/favicon.png ./output/favicon.ico
   - git checkout -b gh-pages
   - cp -a ./output/* ./
   - rm -rf ./output
