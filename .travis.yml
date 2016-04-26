@@ -22,7 +22,7 @@ script:
   - cp .travis/CNAME ./output/
   - cp .travis/favicon.png ./output/favicon.ico
   - git checkout --orphan gh-pages
-  - git rm --cached $(git ls-files)
+  - ls | grep -v output | xargs rm -rf
   - cp -a ./output/* ./
   - rm -rf ./output
   - git add --all
