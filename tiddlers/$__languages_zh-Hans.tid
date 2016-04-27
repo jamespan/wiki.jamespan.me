@@ -1,13 +1,14 @@
 author: BramChen
 core-version: >=5.0.8
-created: 20150614044142575
+created: 20160427003418258
 dependents: 
 description: Chinese (Simplified)
+modified: 20160427003418258
 name: zh-Hans
 plugin-type: language
 title: $:/languages/zh-Hans
 type: application/json
-version: 5.1.8
+version: 5.1.11
 
 {
     "tiddlers": {
@@ -131,6 +132,54 @@ version: 5.1.8
             "title": "$:/language/Buttons/ExportTiddlers/Hint",
             "text": "导出条目"
         },
+        "$:/language/Buttons/Fold/Caption": {
+            "title": "$:/language/Buttons/Fold/Caption",
+            "text": "收合条目"
+        },
+        "$:/language/Buttons/Fold/Hint": {
+            "title": "$:/language/Buttons/Fold/Hint",
+            "text": "收合此条目的内容"
+        },
+        "$:/language/Buttons/Unfold/Caption": {
+            "title": "$:/language/Buttons/Unfold/Caption",
+            "text": "展开条目"
+        },
+        "$:/language/Buttons/Unfold/Hint": {
+            "title": "$:/language/Buttons/Unfold/Hint",
+            "text": "展开此条目的内容"
+        },
+        "$:/language/Buttons/FoldOthers/Caption": {
+            "title": "$:/language/Buttons/FoldOthers/Caption",
+            "text": "收合其他条目"
+        },
+        "$:/language/Buttons/FoldOthers/Hint": {
+            "title": "$:/language/Buttons/FoldOthers/Hint",
+            "text": "收合其他已开启条目的内容"
+        },
+        "$:/language/Buttons/FoldAll/Caption": {
+            "title": "$:/language/Buttons/FoldAll/Caption",
+            "text": "收合所有条目"
+        },
+        "$:/language/Buttons/FoldAll/Hint": {
+            "title": "$:/language/Buttons/FoldAll/Hint",
+            "text": "收合所有已开启条目的内容"
+        },
+        "$:/language/Buttons/Fold/FoldBar/Caption": {
+            "title": "$:/language/Buttons/Fold/FoldBar/Caption",
+            "text": "收合栏"
+        },
+        "$:/language/Buttons/Fold/FoldBar/Hint": {
+            "title": "$:/language/Buttons/Fold/FoldBar/Hint",
+            "text": "可选的收合与展开条目的长条按钮"
+        },
+        "$:/language/Buttons/UnfoldAll/Caption": {
+            "title": "$:/language/Buttons/UnfoldAll/Caption",
+            "text": "展开所有条目"
+        },
+        "$:/language/Buttons/UnfoldAll/Hint": {
+            "title": "$:/language/Buttons/UnfoldAll/Hint",
+            "text": "展开所有已开启条目的内容"
+        },
         "$:/language/Buttons/FullScreen/Caption": {
             "title": "$:/language/Buttons/FullScreen/Caption",
             "text": "全屏幕"
@@ -161,7 +210,7 @@ version: 5.1.8
         },
         "$:/language/Buttons/Import/Hint": {
             "title": "$:/language/Buttons/Import/Hint",
-            "text": "导入文件"
+            "text": "导入许多类型的文件包括文本、图像、TiddlyWiki 或 JSON"
         },
         "$:/language/Buttons/Info/Caption": {
             "title": "$:/language/Buttons/Info/Caption",
@@ -219,21 +268,37 @@ version: 5.1.8
             "title": "$:/language/Buttons/NewTiddler/Hint",
             "text": "创建一个新的条目"
         },
+        "$:/language/Buttons/OpenWindow/Caption": {
+            "title": "$:/language/Buttons/OpenWindow/Caption",
+            "text": "开启于新窗口"
+        },
+        "$:/language/Buttons/OpenWindow/Hint": {
+            "title": "$:/language/Buttons/OpenWindow/Hint",
+            "text": "在新窗口中开启条目"
+        },
+        "$:/language/Buttons/Palette/Caption": {
+            "title": "$:/language/Buttons/Palette/Caption",
+            "text": "调色板"
+        },
+        "$:/language/Buttons/Palette/Hint": {
+            "title": "$:/language/Buttons/Palette/Hint",
+            "text": "选择调色板"
+        },
         "$:/language/Buttons/Permalink/Caption": {
             "title": "$:/language/Buttons/Permalink/Caption",
-            "text": "引用连结"
+            "text": "引用链接"
         },
         "$:/language/Buttons/Permalink/Hint": {
             "title": "$:/language/Buttons/Permalink/Hint",
-            "text": "设置浏览器网址栏为直接连结到此条目"
+            "text": "设置浏览器网址栏为直接链接到此条目"
         },
         "$:/language/Buttons/Permaview/Caption": {
             "title": "$:/language/Buttons/Permaview/Caption",
-            "text": "永久连结"
+            "text": "永久链接"
         },
         "$:/language/Buttons/Permaview/Hint": {
             "title": "$:/language/Buttons/Permaview/Hint",
-            "text": "设置浏览器网址栏为直接连结到当前所有已开启条目"
+            "text": "设置浏览器网址栏为直接链接到当前所有已开启条目"
         },
         "$:/language/Buttons/Refresh/Caption": {
             "title": "$:/language/Buttons/Refresh/Caption",
@@ -487,6 +552,10 @@ version: 5.1.8
             "title": "$:/language/ControlPanel/Plugins/Enable/Hint",
             "text": "重新加载页面时启用此插件"
         },
+        "$:/language/ControlPanel/Plugins/Install": {
+            "title": "$:/language/ControlPanel/Plugins/Install",
+            "text": "安装"
+        },
         "$:/language/ControlPanel/Plugins/Installed/Hint": {
             "title": "$:/language/ControlPanel/Plugins/Installed/Hint",
             "text": "当前已安装的插件："
@@ -499,6 +568,10 @@ version: 5.1.8
             "title": "$:/language/ControlPanel/Plugins/Languages/Hint",
             "text": "语言包插件"
         },
+        "$:/language/ControlPanel/Plugins/OpenPluginLibrary": {
+            "title": "$:/language/ControlPanel/Plugins/OpenPluginLibrary",
+            "text": "开启插件程式库"
+        },
         "$:/language/ControlPanel/Plugins/Plugins/Caption": {
             "title": "$:/language/ControlPanel/Plugins/Plugins/Caption",
             "text": "插件"
@@ -507,6 +580,10 @@ version: 5.1.8
             "title": "$:/language/ControlPanel/Plugins/Plugins/Hint",
             "text": "插件"
         },
+        "$:/language/ControlPanel/Plugins/Reinstall": {
+            "title": "$:/language/ControlPanel/Plugins/Reinstall",
+            "text": "重新安装"
+        },
         "$:/language/ControlPanel/Plugins/Themes/Caption": {
             "title": "$:/language/ControlPanel/Plugins/Themes/Caption",
             "text": "布景主题"
@@ -514,6 +591,26 @@ version: 5.1.8
         "$:/language/ControlPanel/Plugins/Themes/Hint": {
             "title": "$:/language/ControlPanel/Plugins/Themes/Hint",
             "text": "布景主题插件"
+        },
+        "$:/language/ControlPanel/Parsing/Caption": {
+            "title": "$:/language/ControlPanel/Parsing/Caption",
+            "text": "解析"
+        },
+        "$:/language/ControlPanel/Parsing/Hint": {
+            "title": "$:/language/ControlPanel/Parsing/Hint",
+            "text": "在此您可以全域禁用个别的维基语法解析规则。请小心，禁用某些解析规则，会妨碍 ~TiddlyWiki 正常运作 (您可以用[[安全模式|http://tiddlywiki.com/#SafeMode]]恢复正常操作)"
+        },
+        "$:/language/ControlPanel/Parsing/Block/Caption": {
+            "title": "$:/language/ControlPanel/Parsing/Block/Caption",
+            "text": "区块解析规则"
+        },
+        "$:/language/ControlPanel/Parsing/Inline/Caption": {
+            "title": "$:/language/ControlPanel/Parsing/Inline/Caption",
+            "text": "内联解析规则"
+        },
+        "$:/language/ControlPanel/Parsing/Pragma/Caption": {
+            "title": "$:/language/ControlPanel/Parsing/Pragma/Caption",
+            "text": "编译指示解析规则"
         },
         "$:/language/ControlPanel/Saving/Caption": {
             "title": "$:/language/ControlPanel/Saving/Caption",
@@ -583,6 +680,18 @@ version: 5.1.8
             "title": "$:/language/ControlPanel/Settings/AutoSave/Hint",
             "text": "在编辑过程中自动保存变更"
         },
+        "$:/language/ControlPanel/Settings/CamelCase/Caption": {
+            "title": "$:/language/ControlPanel/Settings/CamelCase/Caption",
+            "text": "驼峰式维基链接"
+        },
+        "$:/language/ControlPanel/Settings/CamelCase/Hint": {
+            "title": "$:/language/ControlPanel/Settings/CamelCase/Hint",
+            "text": "您可以全域禁用驼峰式短语自动链接。须保存后重新加载，方才生效。"
+        },
+        "$:/language/ControlPanel/Settings/CamelCase/Description": {
+            "title": "$:/language/ControlPanel/Settings/CamelCase/Description",
+            "text": "启用自动驼峰式链接"
+        },
         "$:/language/ControlPanel/Settings/Caption": {
             "title": "$:/language/ControlPanel/Settings/Caption",
             "text": "设置"
@@ -598,6 +707,34 @@ version: 5.1.8
         "$:/language/ControlPanel/Settings/Hint": {
             "title": "$:/language/ControlPanel/Settings/Hint",
             "text": "这些高级设置让您定制 TiddlyWiki 的行为。"
+        },
+        "$:/language/ControlPanel/Settings/LinkToBehaviour/Caption": {
+            "title": "$:/language/ControlPanel/Settings/LinkToBehaviour/Caption",
+            "text": "条目开启行为"
+        },
+        "$:/language/ControlPanel/Settings/LinkToBehaviour/InsideRiver/Hint": {
+            "title": "$:/language/ControlPanel/Settings/LinkToBehaviour/InsideRiver/Hint",
+            "text": "从故事河//中//导航"
+        },
+        "$:/language/ControlPanel/Settings/LinkToBehaviour/OutsideRiver/Hint": {
+            "title": "$:/language/ControlPanel/Settings/LinkToBehaviour/OutsideRiver/Hint",
+            "text": "从故事河//外//导航"
+        },
+        "$:/language/ControlPanel/Settings/LinkToBehaviour/OpenAbove": {
+            "title": "$:/language/ControlPanel/Settings/LinkToBehaviour/OpenAbove",
+            "text": "开启于当前条目之上"
+        },
+        "$:/language/ControlPanel/Settings/LinkToBehaviour/OpenBelow": {
+            "title": "$:/language/ControlPanel/Settings/LinkToBehaviour/OpenBelow",
+            "text": "开启于当前条目之下"
+        },
+        "$:/language/ControlPanel/Settings/LinkToBehaviour/OpenAtTop": {
+            "title": "$:/language/ControlPanel/Settings/LinkToBehaviour/OpenAtTop",
+            "text": "开启于故事河的顶端"
+        },
+        "$:/language/ControlPanel/Settings/LinkToBehaviour/OpenAtBottom": {
+            "title": "$:/language/ControlPanel/Settings/LinkToBehaviour/OpenAtBottom",
+            "text": "开启于故事河的底部"
         },
         "$:/language/ControlPanel/Settings/NavigationAddressBar/Caption": {
             "title": "$:/language/ControlPanel/Settings/NavigationAddressBar/Caption",
@@ -635,6 +772,38 @@ version: 5.1.8
             "title": "$:/language/ControlPanel/Settings/NavigationHistory/Yes/Description",
             "text": "更新历史记录"
         },
+        "$:/language/ControlPanel/Settings/PerformanceInstrumentation/Caption": {
+            "title": "$:/language/ControlPanel/Settings/PerformanceInstrumentation/Caption",
+            "text": "性能检测"
+        },
+        "$:/language/ControlPanel/Settings/PerformanceInstrumentation/Hint": {
+            "title": "$:/language/ControlPanel/Settings/PerformanceInstrumentation/Hint",
+            "text": "在浏览器的开发人员控制台，显示性能统计数据。需要重新加载才能生效。"
+        },
+        "$:/language/ControlPanel/Settings/PerformanceInstrumentation/Description": {
+            "title": "$:/language/ControlPanel/Settings/PerformanceInstrumentation/Description",
+            "text": "启用性能检测"
+        },
+        "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Caption": {
+            "title": "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Caption",
+            "text": "工具栏按钮样式"
+        },
+        "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Hint": {
+            "title": "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Hint",
+            "text": "选择工具栏按钮的样式:"
+        },
+        "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Styles/Borderless": {
+            "title": "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Styles/Borderless",
+            "text": "无边框"
+        },
+        "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Styles/Boxed": {
+            "title": "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Styles/Boxed",
+            "text": "方框"
+        },
+        "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Styles/Rounded": {
+            "title": "$:/language/ControlPanel/Settings/ToolbarButtonStyle/Styles/Rounded",
+            "text": "圆形"
+        },
         "$:/language/ControlPanel/Settings/ToolbarButtons/Caption": {
             "title": "$:/language/ControlPanel/Settings/ToolbarButtons/Caption",
             "text": "工具栏按钮"
@@ -650,6 +819,22 @@ version: 5.1.8
         "$:/language/ControlPanel/Settings/ToolbarButtons/Text/Description": {
             "title": "$:/language/ControlPanel/Settings/ToolbarButtons/Text/Description",
             "text": "包含文本"
+        },
+        "$:/language/ControlPanel/Settings/TitleLinks/Caption": {
+            "title": "$:/language/ControlPanel/Settings/TitleLinks/Caption",
+            "text": "条目标题"
+        },
+        "$:/language/ControlPanel/Settings/TitleLinks/Hint": {
+            "title": "$:/language/ControlPanel/Settings/TitleLinks/Hint",
+            "text": "可选地显示条目标题为链接"
+        },
+        "$:/language/ControlPanel/Settings/TitleLinks/No/Description": {
+            "title": "$:/language/ControlPanel/Settings/TitleLinks/No/Description",
+            "text": "不显示条目标题为链接"
+        },
+        "$:/language/ControlPanel/Settings/TitleLinks/Yes/Description": {
+            "title": "$:/language/ControlPanel/Settings/TitleLinks/Yes/Description",
+            "text": "显示条目标题为链接"
         },
         "$:/language/ControlPanel/StoryView/Caption": {
             "title": "$:/language/ControlPanel/StoryView/Caption",
@@ -1035,6 +1220,18 @@ version: 5.1.8
             "title": "$:/language/Docs/PaletteColours/blockquote-bar",
             "text": "引言条"
         },
+        "$:/language/Docs/PaletteColours/button-background": {
+            "title": "$:/language/Docs/PaletteColours/button-background",
+            "text": "默认按钮背景"
+        },
+        "$:/language/Docs/PaletteColours/button-border": {
+            "title": "$:/language/Docs/PaletteColours/button-border",
+            "text": "默认按钮边框"
+        },
+        "$:/language/Docs/PaletteColours/button-foreground": {
+            "title": "$:/language/Docs/PaletteColours/button-foreground",
+            "text": "默认按钮前景"
+        },
         "$:/language/Docs/PaletteColours/code-background": {
             "title": "$:/language/Docs/PaletteColours/code-background",
             "text": "代码背景"
@@ -1243,6 +1440,10 @@ version: 5.1.8
             "title": "$:/language/Docs/PaletteColours/sidebar-tiddler-link-foreground",
             "text": "侧边栏条目链结前景"
         },
+        "$:/language/Docs/PaletteColours/site-title-foreground": {
+            "title": "$:/language/Docs/PaletteColours/site-title-foreground",
+            "text": "网站标题前景"
+        },
         "$:/language/Docs/PaletteColours/static-alert-foreground": {
             "title": "$:/language/Docs/PaletteColours/static-alert-foreground",
             "text": "静态警示前景"
@@ -1439,6 +1640,14 @@ version: 5.1.8
             "title": "$:/language/EditTemplate/Fields/Add/Button",
             "text": "添加"
         },
+        "$:/language/EditTemplate/Fields/Add/Dropdown/System": {
+            "title": "$:/language/EditTemplate/Fields/Add/Dropdown/System",
+            "text": "系统栏位"
+        },
+        "$:/language/EditTemplate/Fields/Add/Dropdown/User": {
+            "title": "$:/language/EditTemplate/Fields/Add/Dropdown/User",
+            "text": "使用者栏位"
+        },
         "$:/language/EditTemplate/Fields/Add/Name/Placeholder": {
             "title": "$:/language/EditTemplate/Fields/Add/Name/Placeholder",
             "text": "栏位名称"
@@ -1453,11 +1662,11 @@ version: 5.1.8
         },
         "$:/language/EditTemplate/Shadow/Warning": {
             "title": "$:/language/EditTemplate/Shadow/Warning",
-            "text": "这是默认条目，任何更改将会覆盖默认的版本。"
+            "text": "这是一个默认条目。您做的任何更改将会覆盖来自 <<pluginLink>> 插件的默认版本。"
         },
         "$:/language/EditTemplate/Shadow/OverriddenWarning": {
             "title": "$:/language/EditTemplate/Shadow/OverriddenWarning",
-            "text": "这是修改过的默认条目，删除此条目可以还原为默认的版本。"
+            "text": "这是一个修改过的默认条目。删除此条目可以还原为 <<pluginLink>> 插件中的默认版本。"
         },
         "$:/language/EditTemplate/Tags/Add/Button": {
             "title": "$:/language/EditTemplate/Tags/Add/Button",
@@ -1661,7 +1870,7 @@ version: 5.1.8
         },
         "$:/language/Filters/Missing": {
             "title": "$:/language/Filters/Missing",
-            "text": "佚失条目"
+            "text": "缺失条目"
         },
         "$:/language/Filters/Drafts": {
             "title": "$:/language/Filters/Drafts",
@@ -1746,17 +1955,17 @@ version: 5.1.8
         "$:/language/Help/password": {
             "title": "$:/language/Help/password",
             "description": "设置用以加密的密码",
-            "text": "设置用以加密的密码\n\n```\n--password <password>\n```\n\n"
+            "text": "设置用以加密的密码\n\n```\n--password <password>\n```\n\n''请注意''：这不是用于提供 TiddlyWiki 具有密码保护功能。相反地，请看 [[ServerCommand]] 的密码选项说明。\n"
         },
         "$:/language/Help/rendertiddler": {
             "title": "$:/language/Help/rendertiddler",
             "description": "呈现个别条目为指定的内容类型",
-            "text": "呈现个别条目为指定的[[内容类型|ContentType]]，默认为 `text/html` 且保存为指定的文件名：\n\n```\n--rendertiddler <title> <filename> [<type>]\n```\n\n默认情况下，文件名被解析为相对于版本文件夹的 `output` 子文件夹。 `--output` 命令可以用于将输出指定到一个不同的文件。\n\n自动创建在文件名称的路径中任何缺少的文件夹。"
+            "text": "呈现个别条目为指定的[[内容类型|ContentType]]，默认为 `text/html` 且保存为指定的文件名。还可以指定一个范本，在这种情况下，\"currentTiddler\" 变数设为正在呈现的条目 (第一个参数值) 与范本条目合并呈现。\n\n```\n--rendertiddler <title> <filename> [<type>] [<template>]\n```\n\n默认情况下，文件名被解析为相对于版本文件夹的 `output` 子文件夹。 `--output` 命令可以用于将输出指定到一个不同的文件夹。\n\n自动创建在文件名称的路径中任何缺少的文件夹。"
         },
         "$:/language/Help/rendertiddlers": {
             "title": "$:/language/Help/rendertiddlers",
             "description": "呈现符合筛选条件的条目为指定的内容类型",
-            "text": "呈现符合筛选条的条目为指定的[[内容类型|ContentType]] (默认为 `text/html`) 与扩展名 (默认为 `.html`).\n\n```\n--rendertiddlers <filter> <template> <pathname> [<type>] [<extension>] [\"noclean\"]\n```\n\n例如：\n\n```\n--rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html ./static text/plain\n```\n\n默认情况下，路径名被解析为相对于版本文件夹的 `output` 子文件夹。 `--output` 命令可以用于将输出指定到一个不同的文件。\n\n在目标文件夹中的任何文件都会被删除，除非指定 \"noclean\" 参数。若缺少目标文件夹，则以递回方式创建。"
+            "text": "呈现符合筛选条的条目为指定的[[内容类型|ContentType]] (默认为 `text/html`) 与扩展名 (默认为 `.html`).\n\n```\n--rendertiddlers <filter> <template> <pathname> [<type>] [<extension>] [\"noclean\"]\n```\n\n例如：\n\n```\n--rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html ./static text/plain\n```\n\n默认情况下，路径名被解析为相对于版本文件夹的 `output` 子文件夹。 `--output` 命令可以用于将输出指定到一个不同的文件。\n\n在目标文件夹中的任何文件都会被删除，除非指定 ''noclean'' 旗标。若缺少目标文件夹，则以递归方式创建。"
         },
         "$:/language/Help/savetiddler": {
             "title": "$:/language/Help/savetiddler",
@@ -1766,17 +1975,17 @@ version: 5.1.8
         "$:/language/Help/savetiddlers": {
             "title": "$:/language/Help/savetiddlers",
             "description": "将一群条目的原始内容保存到一个文件夹",
-            "text": "保存一群条目的原始文字或二进制格式到指定的文件夹。\n\n```\n--savetiddlers <filter> <pathname>\n```\n\n默认情况下，路径名被解析为相对于版本文件夹的 `output` 子文件夹。 `--output` 命令可以用于将输出指定到一个不同的文件。\n\n自动创建在路径中任何缺少的文件夹。\n"
+            "text": "保存一群条目的原始文字或二进制格式到指定的文件夹。\n\n```\n--savetiddlers <filter> <pathname> [noclean]\n```\n\n默认情况下，路径名被解析为相对于版本文件夹的 `output` 子文件夹。 `--output` 命令可以用于将输出指定到一个不同的文件夹。\n\n保存指定的文件之前，会先清除输出目录的现有文件。可藉由指定 ''noclean'' 旗标，禁用该删除动作。\n\n自动创建在路径中任何缺少的文件夹。\n"
         },
         "$:/language/Help/server": {
             "title": "$:/language/Help/server",
             "description": "提供一个 HTTP 服务器介面到 TiddlyWiki",
-            "text": "在服务器中内置 TiddlyWiki5 是非常简单。虽与 TiddlyWeb 兼容，但不支持许多健全互联网面向的使用方式所需的功能。\n\n提供呈现一个指定条目，也可将个别条目编码成 JSON，且支持基本的 HTTP 操作 `GET`、`PUT` 及 `DELETE`.\n\n```\n--server <port> <roottiddler> <rendertype> <servetype> <username> <password> <host> <pathprefix>\n```\n\n参数说明：\n\n* ''port'' - 服务的埠号 (默认为 \"8080\")\n* ''roottiddler'' - 服务的基本条目 (默认为 \"$:/core/save/all\") \n* ''rendertype'' - 呈现的基本条目内容类型 (默认为 \"text/plain\")\n* ''servetype'' - 服务的基本条目内容类型(默认为 \"text/html\")\n* ''username'' - 默认的编辑者署名\n* ''password'' - 可选的基本验证密码\n* ''host'' - 可选的主机名称， (默认为 \"127.0.0.1\" 或名为 \"localhost\")\n* ''pathprefix'' - 可选的路径前缀\n\n若指定密码参数，浏览器将提示使用者输入用户名与密码。注意，密码系以明码方式传递，因此并不适合一般正式用途。\n\n例如：\n\n```\n--server 8080 $:/core/save/all text/plain text/html MyUserName passw0rd\n```\n\n若您需要设置主机名称或路径前缀而不要求输入密码，则可以指定空字符串的使用者名和密码：\n\n```\n--server 8080 $:/core/save/all text/plain text/html \"\" \"\" 192.168.0.245\n```\n\n同时执行多个 TiddlyWiki 服务，须分别指定不同的埠号。\n"
+            "text": "在服务器中内置 TiddlyWiki5 是非常简单。虽与 TiddlyWeb 兼容，但不支持许多健全互联网面向的使用方式所需的功能。\n\n提供呈现一个指定条目，也可将个别条目编码成 JSON，且支持基本的 HTTP 操作 `GET`、`PUT` 及 `DELETE`.\n\n```\n--server <port> <roottiddler> <rendertype> <servetype> <username> <password> <host> <pathprefix>\n```\n\n参数说明：\n\n* ''port'' - 服务的埠号 (默认为 \"8080\")\n* ''roottiddler'' - 服务的基本条目 (默认为 \"$:/core/save/all\")\n* ''rendertype'' - 呈现的基本条目内容类型 (默认为 \"text/plain\")\n* ''servetype'' - 服务的基本条目内容类型(默认为 \"text/html\")\n* ''username'' - 默认的编辑者署名\n* ''password'' - 可选的基本验证密码\n* ''host'' - 可选的主机名称， (默认为 \"127.0.0.1\" 或名为 \"localhost\")\n* ''pathprefix'' - 可选的路径前缀\n\n若指定密码参数，浏览器将提示使用者输入用户名与密码。注意，密码系以明码方式传递，因此并不适合一般正式用途。\n\n例如：\n\n```\n--server 8080 $:/core/save/all text/plain text/html MyUserName passw0rd\n```\n\n若您需要设置主机名称或路径前缀而不要求输入密码，则可以指定空字符串的使用者名和密码：\n\n```\n--server 8080 $:/core/save/all text/plain text/html \"\" \"\" 192.168.0.245\n```\n\n同时执行多个 TiddlyWiki 服务，须分别指定不同的埠号。\n"
         },
         "$:/language/Help/setfield": {
             "title": "$:/language/Help/setfield",
             "description": "准备用于外部条目",
-            "text": "//请注意此命令是试验性的，且可能会更改或在最终定稿前被替换//\n\n设置一群条目的指定栏位到 wikifying 范本条目的结果，其中的  `currentTiddler` 变数设置为各该条目。\n\n```\n--setfield <filter> <fieldname> <templatetitle> <rendertype>\n```\n\n参数说明：\n\n* ''filter'' - 受影响的辨识条目的筛选条件\n* ''fieldname'' - 要修改的栏位（默认为 \"text\"）\n* ''templatetitle'' - 该条目 wikify 到指定栏位。若为空白或丢失，则删除指定的栏位\n* ''type'' - 要呈现的文本类型（默认为 \"text/plain\"; \"text/html\" 可以用于包含 HTML 标记)）\n"
+            "text": "//请注意此命令是试验性的，且可能会更改或在最终定稿前被替换//\n\n设置一群条目的指定栏位到 wikifying 范本条目的结果，其中的  `currentTiddler` 变数设置为各该条目。\n\n```\n--setfield <filter> <fieldname> <templatetitle> <rendertype>\n```\n\n参数说明：\n\n* ''filter'' - 受影响的辨识条目的筛选条件\n* ''fieldname'' - 要修改的栏位（默认为 \"text\"）\n* ''templatetitle'' - 该条目 wikify 到指定栏位。若为空白或丢失，则删除指定的栏位\n* ''rendertype'' - 要呈现的文本类型（默认为 \"text/plain\"; \"text/html\" 可以用于包含 HTML 标记)）\n"
         },
         "$:/language/Help/unpackplugin": {
             "title": "$:/language/Help/unpackplugin",
@@ -1786,12 +1995,16 @@ version: 5.1.8
         "$:/language/Help/verbose": {
             "title": "$:/language/Help/verbose",
             "description": "触发详细的输出模式",
-            "text": "触发显示详细的命令执行过程，可用于调试 \n\n```\n--verbose\n```\n"
+            "text": "触发显示详细的命令执行过程，可用于调试\n\n```\n--verbose\n```\n"
         },
         "$:/language/Help/version": {
             "title": "$:/language/Help/version",
             "description": "显示 TiddlyWiki 的版本编号",
             "text": "显示 TiddlyWiki 的版本编号。\n\n```\n--version\n```\n"
+        },
+        "$:/language/Import/Imported": {
+            "title": "$:/language/Import/Imported",
+            "text": "下列条目已被导入："
         },
         "$:/language/Import/Listing/Cancel/Caption": {
             "title": "$:/language/Import/Listing/Cancel/Caption",
@@ -1840,6 +2053,10 @@ version: 5.1.8
         "$:/language/Import/Upgrader/ThemeTweaks/Created": {
             "title": "$:/language/Import/Upgrader/ThemeTweaks/Created",
             "text": "从 <$text text=<<from>>/> 迁移布景主题"
+        },
+        "$:/language/AboveStory/ClassicPlugin/Warning": {
+            "title": "$:/language/AboveStory/ClassicPlugin/Warning",
+            "text": "您貌似要加载为 ~TiddlyWiki 经典版设计的插件。请注意，[[这些插件无法运行于 TiddlyWiki 5.x.x 版|http://tiddlywiki.com/#TiddlyWikiClassic]]。检测到 ~TiddlyWiki 经典版插件："
         },
         "$:/language/BinaryWarning/Prompt": {
             "title": "$:/language/BinaryWarning/Prompt",
@@ -1913,9 +2130,21 @@ version: 5.1.8
             "title": "$:/language/Encryption/SetPassword",
             "text": "设定密码"
         },
+        "$:/language/InternalJavaScriptError/Title": {
+            "title": "$:/language/InternalJavaScriptError/Title",
+            "text": "内部的 JavaScript 错误"
+        },
+        "$:/language/InternalJavaScriptError/Hint": {
+            "title": "$:/language/InternalJavaScriptError/Hint",
+            "text": "喔，真是令人尴尬。建议刷新您的浏览器，重新启动 TiddlyWiki"
+        },
         "$:/language/InvalidFieldName": {
             "title": "$:/language/InvalidFieldName",
             "text": "栏位名称 \"<$text text=<<fieldName>>/>\" 包含无效字符，栏位名称只能包含小写字母、数字、底线 (`_`)、 连字号 (`-`) 和小数点 (`.`)"
+        },
+        "$:/language/LazyLoadingWarning": {
+            "title": "$:/language/LazyLoadingWarning",
+            "text": "<p>正在从 ''<$text text={{!!_canonical_uri}}/>'' 加载外部条目 ...</p><p>如果此信息未消失，可能您使用的浏览器不支援此配置的外部条目。请参阅 http://tiddlywiki.com/#ExternalText</p>"
         },
         "$:/language/MissingTiddler/Hint": {
             "title": "$:/language/MissingTiddler/Hint",
@@ -1923,7 +2152,11 @@ version: 5.1.8
         },
         "$:/language/OfficialPluginLibrary": {
             "title": "$:/language/OfficialPluginLibrary",
-            "text": "官方 ~TiddlyWiki 插件程式库"
+            "text": "~TiddlyWiki 官方插件程式库"
+        },
+        "$:/language/OfficialPluginLibrary/Hint": {
+            "title": "$:/language/OfficialPluginLibrary/Hint",
+            "text": "此为在 tiddlywiki.com 的 ~TiddlyWiki 官方插件程式库。由核心团队维护的插件、主题和语言包。"
         },
         "$:/language/PluginReloadWarning": {
             "title": "$:/language/PluginReloadWarning",
@@ -1941,6 +2174,10 @@ version: 5.1.8
             "title": "$:/language/TagManager/Colour/Heading",
             "text": "颜色"
         },
+        "$:/language/TagManager/Count/Heading": {
+            "title": "$:/language/TagManager/Count/Heading",
+            "text": "计数"
+        },
         "$:/language/TagManager/Icon/Heading": {
             "title": "$:/language/TagManager/Icon/Heading",
             "text": "图标"
@@ -1952,6 +2189,10 @@ version: 5.1.8
         "$:/language/TagManager/Tag/Heading": {
             "title": "$:/language/TagManager/Tag/Heading",
             "text": "标签"
+        },
+        "$:/language/Tiddler/DateFormat": {
+            "title": "$:/language/Tiddler/DateFormat",
+            "text": "YYYY年0MM月0DD日 0hh:0mm"
         },
         "$:/language/UnsavedChangesWarning": {
             "title": "$:/language/UnsavedChangesWarning",
@@ -2009,6 +2250,18 @@ version: 5.1.8
             "title": "$:/language/Search/Matches",
             "text": "//<small><<resultCount>> 个条目符合条件</small>//"
         },
+        "$:/language/Search/Matches/All": {
+            "title": "$:/language/Search/Matches/All",
+            "text": "所有匹配："
+        },
+        "$:/language/Search/Matches/Title": {
+            "title": "$:/language/Search/Matches/Title",
+            "text": "条目名称匹配："
+        },
+        "$:/language/Search/Search": {
+            "title": "$:/language/Search/Search",
+            "text": "查找"
+        },
         "$:/language/Search/Shadows/Caption": {
             "title": "$:/language/Search/Shadows/Caption",
             "text": "默认"
@@ -2059,7 +2312,7 @@ version: 5.1.8
         },
         "$:/language/SideBar/Missing/Caption": {
             "title": "$:/language/SideBar/Missing/Caption",
-            "text": "佚失"
+            "text": "缺失"
         },
         "$:/language/SideBar/More/Caption": {
             "title": "$:/language/SideBar/More/Caption",
