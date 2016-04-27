@@ -2,9 +2,13 @@ created: 20160614055531284
 modified: 20160614082633175
 tags: 
 title: template
-type: text/x-markdown
+type: text/vnd.tiddlywiki
 
 
+```bash
+f() {echo created: `date +%Y%m%d%H%M%S000`;echo modified: `date +%Y%m%d%H%M%S000`;echo tags: ;echo title: $1;echo type: text/x-markdown}; f title
+
+f() {echo created: `date +%Y%m%d%H%M%S000`;echo modified: `date +%Y%m%d%H%M%S000`;echo tags: ;echo title: $1;echo type: text/vnd.tiddlywiki}; f title
 ```
-f() {echo created: `date +%Y%m%d%H%M%S000`;echo modified: `date +%Y%m%d%H%M%S000`;echo tags: ;echo title: $1;echo type: text/x-markdown}; f heheda
-```
+
+
