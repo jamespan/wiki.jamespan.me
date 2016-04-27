@@ -1,0 +1,11 @@
+created: 20160427100247000
+modified: 20160427100247000
+tags:
+title: 令人抓狂的 Git commit message
+type: text/vnd.tiddlywiki
+
+[Commit Message Generator|http://whatthecommit.com]
+
+```bash
+curl -s whatthecommit.com/index.txt | pbcopy
+```
