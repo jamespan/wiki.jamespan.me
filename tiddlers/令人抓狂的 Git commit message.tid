@@ -4,8 +4,8 @@ tags:
 title: 令人抓狂的 Git commit message
 type: text/vnd.tiddlywiki
 
-[Commit Message Generator|http://whatthecommit.com]
+[[Commit Message Generator|http://whatthecommit.com]]
 
-```bash
+```
 curl -s whatthecommit.com/index.txt | pbcopy
 ```
